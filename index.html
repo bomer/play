@@ -1,0 +1,51 @@
+<html>
+<head>
+	<style type="text/css">
+	body{
+		margin: 0;
+		font-size: medium;
+	}
+	nav{
+		display: inline-block;
+		background-color: #111;
+		color: white;
+		position: fixed;
+		width: 100%;
+		float: right;
+		height:80px;
+	}
+	nav>a{
+		float: right;
+		font-size: x-large;
+		color:white !important;
+		padding: 20px;
+	}
+	.section{
+		height:500px;
+		background-color: #aaa;
+	}
+	.section:nth-child(2n){			
+		background-color: #555;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="#section1">section1</a>
+		<a href="#section2">section2</a>
+		<a href="#section3">section3</a>
+		<a href="#section4">section4</a>	
+		<a href="#section5">section5</a>	
+	</nav>
+	<div class="section" id="section1">
+	</div>
+	<div class="section" id="section2">
+	</div>
+	<div class="section" id="section3">
+	</div>
+	<div class="section" id="section4">
+	</div>
+	<div class="section" id="section5">
+	</div>
+</body>
+</html>
